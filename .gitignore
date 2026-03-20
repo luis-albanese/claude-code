@@ -1,2 +1,23 @@
 .DS_Store
 
+# Smartway config — smartway.config.json se commitea intencionalmente al repo
+# para que todos los empleados tengan la API key al clonar.
+# Si necesitas una clave local distinta, usa smartway.config.local.json (ignorado):
+smartway.config.local.json
+smartway.config.json
+
+# Datos locales del developer (nombre/apellido por máquina, no se comparte)
+.smartway.local.json
+
+# Binarios compilados
+dist/*.exe
+dist/claude-smartway-linux
+dist/claude-smartway-macos
+dist/claude-smartway-macos-arm64
+
+# Dependencias del launcher
+launcher/node_modules/
+
+# Archivo temporal de build
+launcher/src/index.build.js
+

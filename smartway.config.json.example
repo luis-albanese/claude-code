@@ -1,0 +1,8 @@
+{
+  "anthropicApiKey": "sk-ant-....A",
+  "company": "Example Company",
+  "supabase": {
+    "url": "https://xx.supabase.co",
+    "serviceRoleKey": "e...BA"
+  }
+}

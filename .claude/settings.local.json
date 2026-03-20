@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r \"github.com\\\\|anthropic\" /c/Users/alban/proyectos/propios/claude-code/.claude-plugin --include=*.json)",
+      "Bash(chmod:*)"
+    ]
+  }
+}
